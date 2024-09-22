@@ -37,7 +37,6 @@ nav a:hover {
 
 main {
 
-    /* max-width: 900px; */
     margin: 2em 2em;
     display: grid;
     grid-template-columns: 1fr .5fr;
