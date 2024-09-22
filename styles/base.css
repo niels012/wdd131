@@ -87,6 +87,10 @@ main {
     border-radius: 8px; 
 }
 
+li {
+    padding: 0.5em;
+}
+
 footer {
     text-align: center;
     padding: 1em;
