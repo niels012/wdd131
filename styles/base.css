@@ -1,6 +1,7 @@
 /* Basic styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -12,6 +13,10 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0 0 0;
+}
+h1 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
 }
 
 nav {
@@ -58,6 +63,8 @@ main {
 }
 
 .card h2 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
     text-align: center;
     background-color: #BE3144; 
     color: white;
