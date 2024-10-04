@@ -35,6 +35,10 @@ body {
 	text-decoration: none;
 }
 
+nav a:hover {
+  background-color: rgb(26, 98, 146);
+}
+
 nav.show-links a {
     display: block;
   }
