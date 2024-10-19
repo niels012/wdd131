@@ -1,14 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Place</title>
-    <meta name="description" content="Places">
+    <title>WDD 131 - Place</title>
+
+    <meta name="description" content="Places I love">
     <meta name="author" content="Nilo A. Urmeneta Jr.">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+
+
 </head>
+
 <body>
-    
+    <header>
+        <h1>Baguio</h1>
+    </header>
+    <main>
+        <section class="image-section">
+            <picture>
+                <source class="big-image" srcset="images/baguio.webp" media="(min-width: 600px)">
+
+                <img class="hero-image" src="images/inBaguio.webp" alt="Summer Capital of the Philippines">
+            </picture>
+        </section>
+
+        <div class="main-content">
+            <section class="data-section">
+                <div class="bookmark_style">
+                    <h2>Data</h2>
+                </div>
+                <table>
+                    <tr>
+                        <td class="label">Area:</td>
+                        <td class="value">57.49 sq km</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Population:</td>
+                        <td class="value">366,358</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Capital:</td>
+                        <td class="value">Benguet</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Languages:</td>
+                        <td class="value">Filipino, English</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Currency:</td>
+                        <td class="value">Philippine Peso</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Time Zone:</td>
+                        <td class="value">UTC+8</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Calling Code:</td>
+                        <td class="value">+63</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Internet TLD:</td>
+                        <td class="value">.ph</td>
+                    </tr>
+                </table>
+            </section>
+            <section class="weather-section">
+                <div class="bookmark_style">
+                    <h2>Weather</h2>
+                    <img src="images/weather_icon.svg" alt="Weather Icon" class="weather-icon">
+                </div>
+                <table>
+                    <tr>
+                        <td class="label">Temperature:</td>
+                        <td class="value" id="temperature">26°C</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Conditions:</td>
+                        <td class="value" id="conditions">Cloudy</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Wind:</td>
+                        <td class="value" id="wind">16 km/h</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Wind Chill:</td>
+                        <td class="value" id="windchill"></td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> Nilo A. Urmeneta Jr. - Carigara, Leyte Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
+
 </html>
