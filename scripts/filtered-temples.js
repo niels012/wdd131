@@ -71,7 +71,37 @@ const temples = [
     dedicated: "1983, December, 2",
     area: 116642,
     imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+  },
+  {
+    templeName: "Cebu City Philippines",
+    location: "Cebu City, Philippines",
+    dedicated: "2010, June, 13",
+    area: 29556,
+    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/cebu-city-philippines-temple/cebu-city-philippines-temple-2255.jpg"
+  },
+  {
+    templeName: "Manila Philippines",
+    location: "Metro Manila, Philippines",
+    dedicated: "1984, September, 25",
+    area: 26683,
+    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/manila-philippines-temple/manila-philippines-temple-44351.jpg"
+  },
+  {
+    templeName: "Urdaneta Philippines",
+    location: "Pangasinan, Philippines",
+    dedicated: "1984, March, 18",
+    area: 32604,
+    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/urdaneta-philippines-temple/urdaneta-philippines-temple-45873.jpg"
+  },
+  {
+    templeName: "Seoul Korea",
+    location: "Seoul-teukbyeolsi, South Korea",
+    dedicated: "1985, December, 14",
+    area: 32604,
+    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/seoul-korea-temple/seoul-korea-temple-22311.jpg"
   }
+  
+  
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
