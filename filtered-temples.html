@@ -9,25 +9,27 @@
 
     <link rel="stylesheet" href="styles/filtered-temples.css">
     <link rel="stylesheet" href="styles/filtered-temples-large.css">
+
     <script src="scripts/filtered-temples.js" defer></script>
+
 </head>
 <body>
     <header>
-        <h1>Temple Album</h1>
-        <nav id="nav-links">
-            <div class="hamburger" id="hamburger">&#9776;</div>
-            <ul>
-                <li><a href="#" id="home">Home</a></li>
-                <li><a href="#" id="old">Old</a></li>
-                <li><a href="#" id="new">New</a></li>
-                <li><a href="#" id="large">Large</a></li>
-                <li><a href="#" id="small">Small</a></li>
-            </ul>
+      <nav class="navbar">
+        <h1 class="navbar-title">Temple Album</h1>
 
-        </nav>
+        <ul class="navbar-links" id="nav-links">
+          <li><a href="#" id="home">Home</a></li>
+          <li><a href="#" id="old">Old</a></li>
+          <li><a href="#" id="new">New</a></li>
+          <li><a href="#" id="large">Large</a></li>
+          <li><a href="#" id="small">Small</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">&#9776;</div>        
+      </nav>
     </header>
   <main>
-    <h2>Home</h2>
+    <h2 id="heading">Home</h2>
     <div class="gallery" id="temple-gallery"></div>
   </main>
 
