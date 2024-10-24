@@ -89,7 +89,7 @@ const temples = [
   {
     templeName: "Urdaneta Philippines",
     location: "Pangasinan, Philippines",
-    dedicated: "1984, March, 18",
+    dedicated: "2024, March, 18",
     area: 32604,
     imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/urdaneta-philippines-temple/urdaneta-philippines-temple-45873.jpg"
   },
@@ -97,7 +97,7 @@ const temples = [
     templeName: "Seoul Korea",
     location: "Seoul-teukbyeolsi, South Korea",
     dedicated: "1985, December, 14",
-    area: 32604,
+    area: 28057,
     imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/seoul-korea-temple/seoul-korea-temple-22311.jpg"
   }
   
