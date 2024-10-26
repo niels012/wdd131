@@ -9,7 +9,7 @@
 
 /* General body styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #fff;
     background: linear-gradient(135deg, #A8C7FD, rgb(154, 154, 235)); /* Dark gradient background */
     display: flex;
@@ -21,6 +21,7 @@ body {
 
 /* Header styling */
 header {
+    font-family: "Righteous", sans-serif;
     width: 100%;
     background: rgba(30, 30, 47, 0.9);
     color: #00aeff;
