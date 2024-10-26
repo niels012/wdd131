@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Product Review Form">
+    <meta name="author" content="Nilo A. Urmeneta Jr.">
+
+    <link rel="stylesheet" href="styles/form.css">
+
+    <script src="scripts/form.js" defer></script>
+
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Review Form</title>
+</head>
+<body>
+  <h1>Product Review</h1>
+  <form method="get" action="review.html">
+    
+    <!-- Product Name -->
+    <label for="product">Product Name:</label>
+    <select id="product" name="product" required>
+      <option value="">Select a Product ...</option>
+      <!-- Dynamic Options will go here -->
+    </select>
+
+    <script>
+      const products = [
+        { name: "Product 1" },
+        { name: "Product 2" },
+        { name: "Product 3" }
+      ];
+
+      const productSelect = document.getElementById('product');
+      products.forEach(product => {
+        const option = document.createElement('option');
+        option.value = product.name;
+        option.textContent = product.name;
+        productSelect.appendChild(option);
+      });
+    </script>
+
+    <!-- Overall Rating -->
+    <fieldset>
+      <legend>Overall Rating:</legend>
+      <label><input type="radio" id="rating1" name="rating" value="1" required> ☆</label>
+      <label><input type="radio" id="rating2" name="rating" value="2"> ☆☆</label>
+      <label><input type="radio" id="rating3" name="rating" value="3"> ☆☆☆</label>
+      <label><input type="radio" id="rating4" name="rating" value="4"> ☆☆☆☆</label>
+      <label><input type="radio" id="rating5" name="rating" value="5"> ☆☆☆☆☆</label>
+    </fieldset>
+
+    <!-- Date of Installation -->
+    <label for="installationDate">Date of Installation:</label>
+    <input type="date" id="installationDate" name="installationDate" required>
+
+    <!-- Useful Features -->
+    <fieldset>
+      <legend>Useful Features (Check all that apply):</legend>
+      <label><input type="checkbox" id="feature1" name="usefulFeatures" value="Feature 1"> Feature 1</label>
+      <label><input type="checkbox" id="feature2" name="usefulFeatures" value="Feature 2"> Feature 2</label>
+      <label><input type="checkbox" id="feature3" name="usefulFeatures" value="Feature 3"> Feature 3</label>
+    </fieldset>
+
+    <!-- Written Review -->
+    <label for="review">Written Review:</label>
+    <textarea id="review" name="review" rows="4" cols="50" placeholder="Write your review here..."></textarea>
+
+    <!-- User Name -->
+    <label for="userName">User Name:</label>
+    <input type="text" id="userName" name="userName">
+
+    <!-- Form Submission Button -->
+    <input type="submit" value="Submit Review">
+
+  </form>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="currentyear"></span> Nilo A. Urmeneta Jr. - Carigara, Leyte Philippines</p>
+    <p id="lastModified"></p>
+  </footer>
+
+</body>
+</html>
+
+</body>
+</html>
