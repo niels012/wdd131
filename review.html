@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Submission</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Review Submission">
+    <meta name="author" content="Nilo A. Urmeneta Jr.">
+
+    <link rel="stylesheet" href="styles/form.css">
+
+    <script src="scripts/form.js" defer></script>
+
+</head>
+<body>
+    <div class="thankyoudiv">
+        <h1>🎉 Hi<span id="name"></span>, Thank you for your review! 🎉</h1> 
+    </div>
+    <script>
+        const nameSpan = document.getElementById("name");
+        document.addEventListener("DOMContentLoaded", () => {
+        const storedName = localStorage.getItem("userName");
+        if (storedName != "") {
+            nameSpan.textContent = " "+storedName; // Append stored name to the span
+        }
+    });
+    </script>
+</body>
+</html>
