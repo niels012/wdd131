@@ -36,6 +36,11 @@ header h1 {
     text-transform: uppercase;
 }
 
+.thankyoudiv{
+    color: black;
+    text-align: center;
+}
+
 .thankyoudiv h1{
     color: black;
     text-align: center;
