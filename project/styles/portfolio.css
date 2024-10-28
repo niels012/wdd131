@@ -191,7 +191,11 @@ header {
     .hamburger {
         display: block;
         color: var(--accent-color);
+        cursor: pointer;
+    }
 
+    nav.show-links {
+        display: block;
     }
 
     .heroContent {
