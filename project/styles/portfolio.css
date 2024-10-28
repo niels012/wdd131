@@ -210,21 +210,26 @@ header {
     .intro h1 {
         font-size: 3em ;
         z-index: 5;
+        text-align: center;
     }
 
     .intro p {
         display: none;
     }
 
+    .image-section{
+        height: 100%;
+    }
+
     .image-placeholder {
         border: 0;
         box-shadow: none;
-        height: 20px;
+        height: 100%;
     }
 
     picture {
         position: absolute;
-        height: 50%;
+        height: 80%;
         left: 0;
         bottom: 0;
         z-index: 1;
