@@ -197,7 +197,7 @@ header {
     }
 
     .intro {
-        padding-left: 30%;
+        padding: 0 5%;
 
     }
     .cta-button {
@@ -210,8 +210,7 @@ header {
     }
 
     .intro p {
-        z-index: 5;
-        padding-left: 35%;
+        display: none;
     }
 
     .image-placeholder {
@@ -222,7 +221,7 @@ header {
 
     picture {
         position: absolute;
-        width: 50%;
+        height: 50%;
         left: 0;
         bottom: 0;
         z-index: 1;
