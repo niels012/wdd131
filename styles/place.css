@@ -6,10 +6,10 @@
 
 :root {
     --primary-color: #083694;
-    --secondary-color: #CE1126;
-    --accent-color: #00d40b;
+    --secondary-color: #880312;
+    --accent-color: #dbff0e;
     --background-color: #f4f4f4;
-    --text-color: #333333;
+    --text-color: #000000;
 }
 
 body {
@@ -33,10 +33,11 @@ header {
 }
 
 .image-section {
-    width: 100%;
+    width: 60%;
     text-align: center;
     background-color: var(--accent-color);
     padding: 10px;
+    margin: 0 auto;
 }
 
 .hero-image, .big-image {
@@ -58,7 +59,7 @@ header {
 .data-section h2,
 .weather-section h2 {
     font-size: 1em;
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .weather-icon {
@@ -87,13 +88,13 @@ td.label {
 
 td.value {
     text-align: left;
-    color: #555;
+    color: var(--text-color);
     font-size: 0.75rem;
 }
 
 footer {
     background-color: var(--secondary-color);
-    color: white;
+    color: var(--background-color);
     width: 100%;
     text-align: center;
     font-size: 0.9em;
@@ -156,6 +157,9 @@ footer {
         content: url('../images/weather_sunny_icon.png');
         height: auto;
         position: absolute;
+    }
+    .image-section {
+        width: 100%;
     }
 
 }
