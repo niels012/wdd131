@@ -92,7 +92,8 @@ header {
     max-width: 1200px;
     padding: 20px 50px;
     gap: 40px;
-    height: 85vh;
+    margin-top: 5%;
+    margin-bottom: auto;
 }
 
 .bgDesign {
@@ -114,7 +115,7 @@ header {
 .intro h1 {
     color: var(--accent-color);
     font-size: 4.5em;
-    margin: 5% 0 13% 0;
+    margin: 2% 0 5% 0;
 }
 
 .intro p {
@@ -308,11 +309,16 @@ button[type="submit"] {
 
 .text {
     text-align: center;
-    margin-top: 10px
+    margin-top: 20px
 }
 .footer {
     position: absolute;
     bottom: 0;
+}
+
+#user-email {
+    color: gray
+
 }
 
 @media (max-width: 768px) {
@@ -429,9 +435,6 @@ button[type="submit"] {
         grid-template-rows: 1fr .4fr;
     }
 
-
-    
-
 }
 
 @media (max-width: 550px) {
@@ -441,7 +444,7 @@ button[type="submit"] {
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1400px) {
     .content {
         flex-direction: column;
         gap: 1em;
