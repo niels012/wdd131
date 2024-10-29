@@ -304,6 +304,17 @@ button[type="submit"] {
     transition: background-color 0.3s ease;
 }
 
+/* Thank you Page Styling */
+
+.text {
+    text-align: center;
+    margin-top: 10px
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
 @media (max-width: 768px) {
     * {
         margin: 0;

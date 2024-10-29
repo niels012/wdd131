@@ -27,25 +27,28 @@
         </header>
         <main>
             <div class="card">
-                <h2>Contact Me</h2>
-                <form action="thankYou.html" method="get">
-                  <label for="name">Name:</label>
-                  <input type="text" id="name" name="name" required>
-              
-                  <label for="email">Email:</label>
-                  <input type="email" id="email" name="email" required>
-              
-                  <label for="message">Message:</label>
-                  <textarea id="message" name="message" rows="4" required></textarea>
-              
-                  <button type="submit" onclick="handleFormSubmit()">Send Message</button>
-                </form>
-              </div>
+                <h1>🎉 Hi<span id="name"></span>, appreciate your message. 🎉</h1> 
+                <p class="text">We’ll get back to you at <span id="user-email"></span> soon.</p>
+            </div>
+            <script>
+                const nameSpan = document.getElementById("name");
+                document.addEventListener("DOMContentLoaded", () => {
+                const storedName = localStorage.getItem("userName");
+                if (storedName != "") {
+                    nameSpan.textContent = " "+storedName; // Append stored name to the span
+                }
+
+                const EmailSpan = document.getElementById("user-email");
+                const storedEmail = localStorage.getItem("Email");
+                if (storedEmail != "") {
+                    EmailSpan.textContent = storedEmail;
+                }       
+            });
+            </script>
         </main>
-        <footer>
+        <footer class="footer">
             <p>© <span id="currentyear"></span> Nilo A. Urmeneta Jr. - Carigara, Leyte Philippines</p>
         </footer>
         <script src="scripts/portfolio.js" defer></script>
     </body>
-    
 </html>
