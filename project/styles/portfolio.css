@@ -329,9 +329,7 @@ button[type="submit"] {
     * {
         margin: 0;
     }
-    body {
-        height: 100vh;
-    }
+
     header {
         padding: 20px 10%;
     }
@@ -358,6 +356,7 @@ button[type="submit"] {
         text-align: center;
         position: absolute;
         top: 11%;
+        left: 0;
     }
 
     nav.show-links a {
