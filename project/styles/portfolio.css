@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: auto;
+    height: 100%;
 }
 
 header {
@@ -99,7 +99,7 @@ header {
 }
 
 .bgDesign {
-    position: absolute;
+    position: fixed;
     background-color: var(--primary-color);
     height: 40vh;
     width: 100%;
@@ -152,9 +152,7 @@ header {
     justify-content: center;
 }
 
-.myImage {
-    width: 100%;
-}
+
 
 .image-placeholder {
     display: flex;
@@ -321,7 +319,7 @@ picture {
     }
 
     .image-section{
-        position: absolute;
+        position: fixed;
         left: 0;
         bottom: 0;
         z-index: 1;
