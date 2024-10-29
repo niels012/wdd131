@@ -431,6 +431,7 @@ button[type="submit"] {
         z-index: 5;
         border-radius: 5px;
         bottom: 70px;
+        text-decoration: none;
     }
 
     .myWorkGrid {
