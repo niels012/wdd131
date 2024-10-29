@@ -349,9 +349,6 @@ picture {
     .content {
         flex-direction: column;
     }
-    .image-section{
-        width: 70vw;
-    }
 
 }
 
