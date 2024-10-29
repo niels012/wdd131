@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Me</title>
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Project Site Plan">
+        <meta name="author" content="Nilo A. Urmeneta Jr.">
+    
+        <link rel="stylesheet" href="styles/portfolio.css">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100;400&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo"><a id="logo" href="nilourmeneta.html" aria-label="Homepage">Logo</a></div>
+            <nav class="nav-links" id="nav-links">
+                <a href="aboutMe.html">About Me</a>
+                <a href="myWork.html">My Work</a>
+                <a class="work" href="contactMe.html">Work with me</a>
+            </nav>
+            <a href="contactMe.html" class="nav-button">Contact Me</a>
+            <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+        </header>
+        <main>
+            <div class="card">
+                <h2>Contact Me</h2>
+                <form action="https://your-server-endpoint" method="post">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+              
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+              
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="4" required></textarea>
+              
+                  <button type="submit">Send Message</button>
+                </form>
+              </div>
+        </main>
+        <footer>
+            <p>© <span id="currentyear"></span> Nilo A. Urmeneta Jr. - Carigara, Leyte Philippines</p>
+        </footer>
+        <script src="scripts/portfolio.js" defer></script>
+    </body>
+    
+</html>
