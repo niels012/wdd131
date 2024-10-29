@@ -427,13 +427,21 @@ button[type="submit"] {
         display: block;
         z-index: 5;
         border-radius: 5px;
-        bottom: 50px;
+        bottom: 70px;
     }
 
     .myWorkGrid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr .4fr;
     }
+    .card {
+        margin: 1em 1em 3em 1em;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+    }
+    
 
 }
 
