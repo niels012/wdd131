@@ -41,6 +41,10 @@ header {
     font-size: 1.2em;
     font-weight: bold;
 }
+#logo {
+    text-decoration: none;
+    color: var(--accent-color);
+}
 
 .nav-links {
     width: 80%;
@@ -56,6 +60,10 @@ header {
 
 .nav-links a:hover {
     border-bottom: 3px solid var(--accent-color);
+}
+
+.work {
+    display: none;
 }
 
 .nav-button {
@@ -120,7 +128,12 @@ header {
     margin-bottom: 5%;
 }
 
+.floatText {
+    display: none;
+}
+
 .cta-button {
+    font-size: 1.2em;
     color: var(--accent-color);
     padding: 10px 20px;
     border: 1px solid var(--accent-color);
@@ -161,12 +174,11 @@ header {
     transform: translateX(-50%);
     padding: 15px;
     font-size: 1.5em;
-    color: rgb(0, 0, 0);
+    color: var(--accent-color);
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 10px 20px;
-    border: 1px solid black;
-    background: transparent;
+    background-color: var(--secondary-color);
 
 }
 
@@ -183,6 +195,9 @@ header {
     }
     .nav-links {
         display: none;
+    }
+    .work {
+        display: block;
     }
 
     .nav-button {
@@ -238,6 +253,20 @@ header {
         display: none;
     }
 
+    .floatText {
+        display: block;
+        z-index: 20;
+        width: 100%;
+        height: 100%;
+    }
+
+    .floatText p{
+        display: block;
+        z-index: 20;
+        width: 100%;
+        text-align: right;
+    }
+
     .image-section{
         height: 100%;
     }
@@ -259,7 +288,7 @@ header {
     .floating-button {
         display: block;
         z-index: 5;
-        border: 1px solid var(--accent-color);
+        border-radius: 5px;
     }
 
 }
