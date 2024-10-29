@@ -287,7 +287,7 @@ picture {
     }
 
     .intro {
-        padding: 0;
+        padding: 0 60px;
 
     }
     .cta-button {
@@ -348,5 +348,15 @@ picture {
 @media (max-width: 550px) {
     .content {
         flex-direction: column;
+    }
+    .image-section{
+        width: 70vw;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .image-section{
+        width: 50vw;
     }
 }
