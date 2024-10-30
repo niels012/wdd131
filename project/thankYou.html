@@ -27,7 +27,7 @@
         </header>
         <main>
             <div class="card">
-                <h1>🎉 Hi<span id="name"></span>, appreciate your message. 🎉</h1> 
+                <h1>🎉 Hi <span id="name"></span>, appreciate your message. 🎉</h1> 
                 <p class="text">We’ll get back to you at (<span id="user-email"></span>) soon.</p>
             </div>
             <script>
@@ -35,7 +35,7 @@
                 document.addEventListener("DOMContentLoaded", () => {
                 const storedName = localStorage.getItem("Name");
                 if (storedName != "") {
-                    nameSpan.textContent = " "+storedName; // Append stored name to the span
+                    nameSpan.textContent = storedName; // Append stored name to the span
                 }
 
                 const EmailSpan = document.getElementById("user-email");
