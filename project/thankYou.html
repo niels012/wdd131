@@ -33,7 +33,7 @@
             <script>
                 const nameSpan = document.getElementById("name");
                 document.addEventListener("DOMContentLoaded", () => {
-                const storedName = localStorage.getItem("userName");
+                const storedName = localStorage.getItem("Name");
                 if (storedName != "") {
                     nameSpan.textContent = " "+storedName; // Append stored name to the span
                 }
